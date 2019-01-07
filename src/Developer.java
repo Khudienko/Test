@@ -18,10 +18,10 @@ String proffesion =new String();
 
     public void creationOfDevCollection(){
         ArrayList arrayList = new ArrayList();
-        arrayList.add(new Developer("Fast","Java developer"));
-        arrayList.add(new Developer("Lazy","JavaScript developer"));
-        arrayList.add(new Developer("Clever","C# developer"));
-        arrayList.add(new Developer("Experienced","C++ developer"));
+        arrayList.add(new Developer("Back-end","Java developer"));
+        arrayList.add(new Developer("Front-end","JavaScript developer"));
+        arrayList.add(new Developer("Data base","MySQL developer"));
+        arrayList.add(new Developer("Back-end","PHP developer"));
 
 //        Object[] o=arrayList.toArray();
 //        for (int i = 0; i <o.length ; i++) {
