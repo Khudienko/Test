@@ -29,9 +29,9 @@ public class Team extends Developer{
         Map map = new TreeMap();
         //creationOfDevCollection();
         map.put("1",new Developer("Smart","Java"));
-        map.put("2",new Developer("Fast",".Net"));
-        map.put("5",new Developer("Lazy","C#"));
-        map.put("4",new Developer("Fullish","C"));
+        map.put("2",new Developer("Fast","PHP"));
+        map.put("5",new Developer("Beginner","C#"));
+        map.put("4",new Developer("Experienced","C"));
         map.put("7",new Developer("Clever","C++"));
 
         map.forEach((key, value) -> {
